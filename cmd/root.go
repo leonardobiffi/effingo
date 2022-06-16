@@ -27,7 +27,7 @@ to quickly create a Cobra application.`,
 	// RunE: func(cmd *cobra.Command, args []string) (err error) {
 	// 	return
 	// },
-	Version: version.Version(),
+	Version: version.String(),
 }
 
 // Execute adds all child commands to the root command and sets flags appropriately.
@@ -50,5 +50,5 @@ func init() {
 	// when this action is called directly.
 	rootCmd.Flags().BoolP("toggle", "t", false, "Help message for toggle")
 
-	rootCmd.SetVersionTemplate(version.VersionTemplate())
+	rootCmd.SetVersionTemplate(version.Template())
 }
