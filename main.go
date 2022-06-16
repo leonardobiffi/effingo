@@ -1,6 +1,5 @@
 /*
-Copyright © 2022 NAME HERE <EMAIL ADDRESS>
-
+Copyright © 2022 Leonardo Biffi <leonardobiffi@outlook.com>
 */
 package main
 

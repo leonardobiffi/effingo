@@ -1,3 +1,6 @@
+/*
+Copyright © 2022 Leonardo Biffi <leonardobiffi@outlook.com>
+*/
 package template
 
 import (

@@ -9,5 +9,5 @@ Copy docker images from Dockerhub to ECR Registry
 ## Usage
 
 ```sh
-effingo copy --source hashicorp/terraform:1.2.2 --dest public.ecr.aws/c9c9c5c9/terraform:1.2.2
+effingo copy --src hashicorp/terraform:1.2.2 --dest public.ecr.aws/c9c9c5c9/terraform:1.2.2
 ```
